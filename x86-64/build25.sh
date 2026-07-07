@@ -56,9 +56,13 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+PACKAGES="$PACKAGES luci-app-openclash"
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
+# SNMP服务器 (iKuai跨三层应用支持)
+PACKAGES="$PACKAGES luci-i18n-snmpd-zh-cn"
 # ======== shell/apk-custom-packages.sh =======
 # 合并imm仓库以外的第三方插件 暂时注释
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
